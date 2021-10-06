@@ -1,5 +1,5 @@
 set WshShell = WScript.CreateObject("WScript.Shell") 
-WshShell.Run "D:\PROGRA~2\Lenovo\LENOVO~1\zBox_client.exe"
+WshShell.Run "YOURJBOX_LOCATION"
 WScript.Sleep 2000       
 WshShell.SendKeys "{tab}"
 WScript.Sleep 100
@@ -9,6 +9,6 @@ WshShell.SendKeys "{tab}"
 WScript.Sleep 100 
 WshShell.SendKeys "{tab}"
 WScript.Sleep 100
-WshShell.SendKeys "CloudYang61{tab}"      
+WshShell.SendKeys "ACCOUNT{tab}"      
 Wscript.Sleep 300
 WshShell.SendKeys "PASSWORD{tab}"    
