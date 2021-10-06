@@ -11,4 +11,4 @@ WshShell.SendKeys "{tab}"
 WScript.Sleep 100
 WshShell.SendKeys "CloudYang61{tab}"      
 Wscript.Sleep 300
-WshShell.SendKeys "JazzHope61{tab}"    
+WshShell.SendKeys "PASSWORD{tab}"    
